@@ -149,7 +149,7 @@ RUN apt-get update \
 RUN \
     # Install opencv python
     pip3 install opencv-python -i https://mirrors.cloud.tencent.com/pypi/simple \
-    clean-layer.sh
+    && clean-layer.sh
 
 # 视频流服务依赖
 RUN \
