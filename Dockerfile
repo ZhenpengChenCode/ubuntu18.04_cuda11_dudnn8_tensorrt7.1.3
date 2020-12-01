@@ -13,7 +13,7 @@
 # limitations under the License.
 
 ARG CUDA_VERSION=11.0
-ARG OS_VERSION=18.04
+ARG OS_VERSION=16.04
 ARG NVCR_SUFFIX=
 FROM nvidia/cuda:${CUDA_VERSION}-cudnn8-devel-ubuntu${OS_VERSION}${NVCR_SUFFIX}
 
